@@ -1,0 +1,10 @@
+Build tested with maven 3
+=========================
+mvn install dependency:copy-dependencies
+
+
+
+Execution
+=========
+cd target
+java -cp "Demo-0.0.1-SNAPSHOT.jar:dependency/*:classes/" HtmlScraper.Demo.HtmlScraper apartments
